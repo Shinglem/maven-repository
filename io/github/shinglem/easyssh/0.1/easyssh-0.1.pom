@@ -23,5 +23,11 @@
       <version>2.2.0</version>
       <scope>runtime</scope>
     </dependency>
+    <dependency>
+      <groupId>net.i2p.crypto</groupId>
+      <artifactId>eddsa</artifactId>
+      <version>0.3.0</version>
+      <scope>runtime</scope>
+    </dependency>
   </dependencies>
 </project>
