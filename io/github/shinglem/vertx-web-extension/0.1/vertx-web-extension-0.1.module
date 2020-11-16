@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.shinglem",
+    "module": "vertx-web-extension",
+    "version": "0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5.1",
+      "buildId": "pwjixx5ebzd5fn3r3lnmp3xdce"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.shinglem",
+          "module": "vertx-core-extension",
+          "version": {
+            "requires": "unspecified"
+          }
+        },
+        {
+          "group": "io.github.shinglem",
+          "module": "default-class-util",
+          "version": {
+            "requires": "unspecified"
+          }
+        },
+        {
+          "group": "io.vertx",
+          "module": "vertx-web",
+          "version": {
+            "requires": "4.0.0.CR1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vertx-web-extension-0.1.jar",
+          "url": "vertx-web-extension-0.1.jar",
+          "size": 94195,
+          "sha512": "cd400644202763244d61d270e79003f2252e64dda477faeb5d322fc934631a794f73e6a2dab0c5d718d2972f65f3f85c1807deb90f428064ceaec3c3ccef8b5a",
+          "sha256": "7b433ef6a4941fda9966e814ab4b14975c28f5a5a7cd8389a59921a4791ada8f",
+          "sha1": "95e66cc7316f15c110db329e4df07296345cc282",
+          "md5": "5fb7f0287a500208263e00e796123034"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.jgit",
+          "module": "org.eclipse.jgit",
+          "version": {
+            "requires": "3.5.0.201409260305-r"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "io.github.shinglem",
+          "module": "vertx-core-extension",
+          "version": {
+            "requires": "unspecified"
+          }
+        },
+        {
+          "group": "io.github.shinglem",
+          "module": "default-class-util",
+          "version": {
+            "requires": "unspecified"
+          }
+        },
+        {
+          "group": "io.vertx",
+          "module": "vertx-web",
+          "version": {
+            "requires": "4.0.0.CR1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vertx-web-extension-0.1.jar",
+          "url": "vertx-web-extension-0.1.jar",
+          "size": 94195,
+          "sha512": "cd400644202763244d61d270e79003f2252e64dda477faeb5d322fc934631a794f73e6a2dab0c5d718d2972f65f3f85c1807deb90f428064ceaec3c3ccef8b5a",
+          "sha256": "7b433ef6a4941fda9966e814ab4b14975c28f5a5a7cd8389a59921a4791ada8f",
+          "sha1": "95e66cc7316f15c110db329e4df07296345cc282",
+          "md5": "5fb7f0287a500208263e00e796123034"
+        }
+      ]
+    }
+  ]
+}
